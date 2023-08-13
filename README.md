@@ -1,5 +1,8 @@
 # **Arch-Darwin**
-An Arch linux splash screen for plymouth
+An Arch linux splash screen for plymouth.
+
+In this fork I changed the speed of the progress bar to reach the end before login screen or before it shuts down. Moreover I removed and optimized unnecessary code and files to reduce overhead.
+ 
 <img src="./preview.gif" alt="arch-darwin">
 
 <!---
