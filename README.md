@@ -16,8 +16,16 @@ $ yay -S plymouth-theme-arch-darwin
 --->
 
 # Manual Installtion
+clone repo
 ```
-$ git clone https://github.com/armoredvortex/plymouth-theme-arch-darwin-fast
+$ git clone https://github.com/FedericoCalzoni/plymouth-theme-arch-darwin-fast.git
+```
+
+move content to theme directory of plymouth
+```
 $ sudo mv ./plymouth-theme-arch-darwin-fast /usr/share/plymouth/themes/arch-darwin-fast
+```
+Apply theme
+```
 $ sudo plymouth-set-default-theme -R arch-darwin-fast
 ```
